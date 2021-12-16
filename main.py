@@ -18,6 +18,8 @@ Example:
     
 
 '''
+
+
 SECURE_dict= {'i': 'l', 'o':'u', 'v': 'y', 'c': 'k', '1': '0', '2':'9', '3':'8',
             'l': 'i','u':'o', 'y': 'v', 'k': 'c', '0': '1', '9':'2', '8':'3' }
 
@@ -26,9 +28,6 @@ def securePassword(password):
     password = password.translate(transTable)
     return password
   
-
-
-
 
 
 if __name__ == "__main__":
