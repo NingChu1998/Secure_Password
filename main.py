@@ -32,10 +32,13 @@ def securePassword(password):
 
 
 if __name__ == "__main__":
-    password = input('Enter your password: ')
-    password = password.lower()
-    password = securePassword(password)
-    
-    print(f'*******Your safer password is: {password}********')
+    password = input('Enter your password or Exit: ')
+    while password !='Exit':
+        password = password.lower()
+        password = securePassword(password)
+        print(f'******* Your transformed password is: {password} ********')
+        password = input('Enter your password or Exit: ')
+    print('See u next time ❤️')
+
 
 
