@@ -3,8 +3,8 @@
 ##### Secure Password is a Python project using your custom tranlation table to encrypt password.
 ---
 ##  Features
-- To storage whole your passowords (*Plase add your passwords in the dictionary above)
-- Password directly be copied to our clipboard
+- To encrypt your passwords in a easy way(* You can change your tranlsation table by editing the dictionary above) 
+
 
 ##  Methond
 
