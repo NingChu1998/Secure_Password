@@ -9,12 +9,12 @@ Example:
 
     Input:
     password ='Ilovecoding123'
-    password2 ='LIUKEKudlng098'
+    password2 ='LIUYEKudlng098'
 
 
     Output:
     Your secure password is: liuyekudlng098
-    Your secure password is:  ilocecoding123
+    Your secure password is:  ilovecoding123
     
 
 '''
